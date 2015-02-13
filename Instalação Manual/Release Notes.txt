@@ -1,6 +1,11 @@
 
 RELEASE NOTES
+v 1.0.1      13/02/2015
+- ADD ADD Translation module pagseguro (Brasil)
+- ADD Translation module Bcach (Brasil)
+- ADD Translation module Correios (Brasil)
 
-V 1.0.0
+______________________________
+V 1.0.0      10/02/2015
 
 - Initial release
