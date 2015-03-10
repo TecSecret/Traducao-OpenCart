@@ -1,0 +1,55 @@
+PRIMEIRA INSTALAÇÃO
+
+Instalar o idioma português do Brasil no OpenCart é um processo relativamente fácil, porém, requer alguma atenção para que funcione corretamente.
+
+Vamos lá!
+
+1º Baixe o pacote de tradução para a versão de sua loja, você pode achar esse pacote aqui no nosso GitHub: https://github.com/TecSecret/Traducao_OpenCart_v2.0.1.1/tree/master/Instalação%20Manual
+
+2º Descompacte o pacote no formato zip que você baixou, repare que aparecerão duas novas pastas conforme abaixo:
+
+admin/language/portuguese-br
+catalog/language/portuguese-br
+
+Envie para o diretório raiz do se OpenCart via ftp (caso esteja instalando em um serviço de hospedagem), ou cole (caso esteja instalando em sua máquina local), respeitando a estrutura de pastas e arquivos.
+
+
+
+Importante: Se você não sabe como fazer o envio dos arquivos via ftp, faça uma busca no YouTube por “enviar arquivos via ftp”, que você vai encontrar vários vídeos ensinando a fazer o envio via ftp dos arquivos e instalar a tradução.
+
+3º Acesse a área de administração de sua loja e vá no menu System->Localisation->Languages e clique no botão Insert.
+
+4º Preencha os campos no formulário aberto com as seguintes informações:
+
+Language name: Português (BR)
+Code: pt-br
+Locale: pt_BR.UTF-8, pt_BR, UTF-8
+Image: br.png
+Directory: portuguese-br
+Filename: portuguese-br
+Status: Enabled
+Sort Order: 1
+
+E clique no botão Save.
+------------------------------
+
+5º - Adicione a moeda Real na Loja
+	title = Real
+	code = BRL
+	symbol_left=R$ (aqui vc pode dar um espaço para separar o simbolo do valor quando aparecer nos produtos e carinho)
+	symbol_right'=  (aqui deixa em branco)
+	decimal_place= 2
+	value= 1.00000000
+	status= 1
+
+E clique no botão Save.
+
+6º Abra o seu phpmyadmin e importe o arquivo com nome de install.sql
+
+7º Clique em Edit na linha que está identificado o idioma English (Default) e altere o campo Sort Order para 2 e clique no botão Save.
+
+9º Acesse o menu System>Settings, clique em Edit, clique na aba Local, selecione a opção Português (BR) nos campos Language e Administration Language, e clique no botão Save, neste momento a administração da loja já estará traduzida.
+
+9º Limpe o cache e cookies do seu navegador e acesse a sua loja com OpenCart para visualizar a loja já traduzida.
+
+Pronto! Sua loja está traduzida.
