@@ -1,5 +1,20 @@
-
 RELEASE NOTES
+
+
+__________________
+v1.1 19/08/2016
+- ADD support OpenCart 2.3.0.2
+- Fix bug
+
+__________________
+V 1.0.2 05/06/2015
+- ADD support OpenCart v2.0.2.0 and 2.0.3.1
+- Fix Error Parse error: syntax error, unexpected $end in admin/language/portuguese-br/setting/setting.php on line 96
+- FIX Error incorrect translation or missing in the administrative area
+- Removed Translation module Bcach, pagseguro, Correios
+- FIX Translation front-end
+
+________________________
 v 1.0.1      13/02/2015
 - ADD ADD Translation module pagseguro (Brasil)
 - ADD Translation module Bcach (Brasil)
