@@ -1,8 +1,14 @@
 <?php
+/**
+ * Tradução Opencart mantida pela TecSecret
+ * @author     Departamento de Desenvolvimento Web - TecSecret | Responsável: Nelsir Luterek
+ * @copyright  Copyright (c) 2016 https://tecsecret.com.br
+ */
 // Heading
 $_['heading_title']        = 'Instalador de extensões';
 
 // Text
+$_['text_upload']          = 'Enviando a extensão';
 $_['text_success']         = 'Extensão instalada com sucesso!';
 $_['text_unzip']           = 'Extraindo arquivos!';
 $_['text_ftp']             = 'Copiando arquivos!';

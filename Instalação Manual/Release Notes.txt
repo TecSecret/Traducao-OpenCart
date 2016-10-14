@@ -1,6 +1,10 @@
 RELEASE NOTES
 
-
+________________________
+v1.2 14/10/2016
+- Update and add translation
+- Fix Bug 
+- Fix translation admin page
 __________________
 v1.1 19/08/2016
 - ADD support OpenCart 2.3.0.2

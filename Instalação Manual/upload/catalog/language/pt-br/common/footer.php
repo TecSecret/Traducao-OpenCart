@@ -14,4 +14,4 @@ $_['text_account']      = 'Minha conta';
 $_['text_order']        = 'Histórico de pedidos';
 $_['text_wishlist']     = 'Lista de desejos';
 $_['text_newsletter']   = 'Informativo';
-$_['text_powered']      = '<a href="http://www.tecsecret.com.br" target="_blank"><img src="http://tecsecret.com.br/logos/tecsecret.png" alt="Desenvolvido por TecSecret" title="Desenvolvido por TecSecret"></a>';
+$_['text_powered']      = '<a href="http://www.tecsecret.com.br" target="_blank"><img src="http://tecsecret.com.br/logos/tecsecret.png" alt="TecSecret - A Sua Consultoria em TI" title="TecSecret - A Sua Consultoria em TI"></a><br /> %s &copy; %s';
