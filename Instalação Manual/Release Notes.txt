@@ -1,7 +1,13 @@
 RELEASE NOTES
 
+
 ________________________
-v1.2 14/10/2016
+v1.2 07/02/2017
+- Update and add translation
+- Fix Bug 
+
+________________________
+v1.1.2 14/10/2016
 - Update and add translation
 - Fix Bug 
 - Fix translation admin page
