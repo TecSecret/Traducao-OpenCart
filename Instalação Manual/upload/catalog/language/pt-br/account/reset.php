@@ -1,4 +1,9 @@
 <?php
+/**
+ * Instalador automático tradução OpenCart
+ * @author     Departamento de Desenvolvimento Web - TecSecret | Responsável: Nelsir Luterek
+ * @copyright  Copyright (c) 2017 https://tecsecret.com.br
+ */
 // header
 $_['heading_title']  = 'Redefinir sua senha';
 

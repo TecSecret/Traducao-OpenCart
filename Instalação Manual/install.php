@@ -1,11 +1,10 @@
 <?php
-
 /**
  * Instalador automático tradução OpenCart
  * @author     Departamento de Desenvolvimento Web - TecSecret | Responsável: Nelsir Luterek
  * @copyright  Copyright (c) 2016 https://tecsecret.com.br
  */
-
+ 
 $this->load->model('localisation/language');
 $results = $this->model_localisation_language->getLanguages();
 
@@ -23,6 +22,7 @@ if ($iLang) {
   $oc_language['locale']     = 'pt_BR.UTF-8,pt_BR,pt-br,pt_br,portuguese';
   $oc_language['sort_order'] = 1;
   $oc_language['status']     = 1;
+  $this->config->set('config_language_id', 1);
   $this->model_localisation_language->addLanguage($oc_language);
 }
 
